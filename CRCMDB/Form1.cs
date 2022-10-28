@@ -16,5 +16,11 @@ namespace CRCMDB
         {
             InitializeComponent();
         }
+
+        private void manageGenresButton_Click(object sender, EventArgs e)
+        {
+            Genres genres = new Genres();
+            genres.ShowDialog();
+        }
     }
 }
