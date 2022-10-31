@@ -19,8 +19,20 @@ namespace CRCMDB
 
         private void manageGenresButton_Click(object sender, EventArgs e)
         {
-            Genres genres = new Genres();
+            Genre genres = new Genre();
             genres.ShowDialog();
+        }
+
+        private void manageActorsButton_Click(object sender, EventArgs e)
+        {
+            Actors actors = new Actors();
+            actors.ShowDialog();
+        }
+
+        private void manageMoviesButton_Click(object sender, EventArgs e)
+        {
+            Movie movie = new Movie();  
+            movie.ShowDialog();
         }
     }
 }
